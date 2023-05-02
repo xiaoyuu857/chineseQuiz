@@ -36,18 +36,22 @@ class MyWindow(QMainWindow):
         layout.addWidget(logo_label)
 
         self.play_button = QtWidgets.QPushButton("Play", page1)
+        self.play_button.setCursor(QCursor(QtCore.Qt.PointingHandCursor))
         self.play_button.setStyleSheet(    
             '''*{
-                    padding: 25px 0px;
-                    background: '#BC006C';
-                    color: 'white';
-                    font-family: 'Arial';
-                    font-size: 35px;
-                    border-radius: 40px;
-                    margin: 10px 200px;
-                }
-                *:hover{
-                    background: '#ff1b9e';
+                padding: 25px 0px;
+                background-color: '#6c757d';
+                color: '#fff';
+                font-family: 'Arial';
+                font-size: 25px;
+                border-radius: 8px;
+                margin: 10px 200px;
+                min-width: 120px;
+                min.height: 35px;
+                border: 5px solid '#fff';
+            }
+            *:hover{
+                background: '#5c636a';
             }'''
             )
         layout.addWidget(self.play_button)
@@ -145,7 +149,7 @@ class MyWindow(QMainWindow):
         self.final_page = QWidget()
 
         score_label = QLabel(f"Your final score is {self.score} out of {len(self.questions)}")
-        font = QFont('Helvetica', 14)
+        font = QFont('Helvetica', QFont.Bold, 30)
         score_label.setFont(font)
         score_label.setAlignment(Qt.AlignCenter)
 
@@ -159,15 +163,18 @@ class MyWindow(QMainWindow):
         self.button.setStyleSheet(
             '''*{
                 padding: 25px 0px;
-                background: '#BC006C';
-                color: 'white';
+                background-color: '#6c757d';
+                color: '#fff';
                 font-family: 'Arial';
-                font-size: 35px;
-                border-radius: 40px;
+                font-size: 25px;
+                border-radius: 8px;
                 margin: 10px 200px;
+                min-width: 120px;
+                min.height: 35px;
+                border: 5px solid '#fff';
             }
             *:hover{
-                background: '#ff1b9e';
+                background: '#5c636a';
             }'''
             )
         layout.addWidget(self.button)
@@ -193,7 +200,7 @@ class MyWindow(QMainWindow):
     def showQuestion(self, questions, index):
         self.updateQuestionLabel()
         question = self.questions[self.current_question_index]
-        font = QFont('SimSun', 20)
+        font = QFont('Helvetica', 20)
         self.question_label.setFont(font)
         self.current_question_index = index
         self.updateProgressBar()
