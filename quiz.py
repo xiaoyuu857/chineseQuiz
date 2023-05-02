@@ -125,7 +125,6 @@ class MyWindow(QMainWindow):
         self.explanation_label = QLabel()
         font = QFont('Helvetica', 14)
         self.explanation_label.setFont(font)
-        # self.explanation_label.hide()
         layout.addWidget(self.explanation_label)
 
         self.correct_answer_label = QLabel()
@@ -192,7 +191,6 @@ class MyWindow(QMainWindow):
 
 
     def showQuestion(self, questions, index):
-        self.updateProgressBar()
         self.updateQuestionLabel()
         question = self.questions[self.current_question_index]
         font = QFont('SimSun', 20)
