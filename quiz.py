@@ -342,11 +342,7 @@ def load_questions_and_answers():
     for question in questions:
         for answer in question['answers']:
             answer['explanation'] = answer_to_explanation.get(answer['answer'], '')
-
-    # Save the updated questions
-    with open('updated_questions.json', 'w', encoding="utf-8") as f:
-        json.dump(questions, f, indent=4)
-
+            
     return questions
 
 
