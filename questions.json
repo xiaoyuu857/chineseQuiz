@@ -1,0 +1,2224 @@
+[
+  {
+      "id": 1,
+      "question": "爱情和智慧, 二者____",
+      "answers": [
+          {
+              "answer": "不可兼得",
+              "is_correct": true
+          },
+          {
+              "answer": "废寝忘食",
+              "is_correct": false
+          },
+          {
+              "answer": "无理取闹",
+              "is_correct": false
+          },
+          {
+              "answer": "光明磊落",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 2,
+      "question": "他希望离观众再近些, 却总是____",
+      "answers": [
+          {
+              "answer": "筋疲力尽",
+              "is_correct": false
+          },
+          {
+              "answer": "不得其法",
+              "is_correct": true
+          },
+          {
+              "answer": "雪上加霜",
+              "is_correct": false
+          },
+          {
+              "answer": "不顾一切",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 3,
+      "question": "自从见了她, 小刚就整天____",
+      "answers": [
+          {
+              "answer": "筋疲力尽",
+              "is_correct": false
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": true
+          },
+          {
+              "answer": "思前想后",
+              "is_correct": false
+          },
+          {
+              "answer": "轻而易举",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 4,
+      "question": "看着小强____的样子, 我忍不住笑了",
+      "answers": [
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "忐忑不安",
+              "is_correct": false
+          },
+          {
+              "answer": "一本正经",
+              "is_correct": true
+          },
+          {
+              "answer": "称兄道弟",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 5,
+      "question": "那女子拥有____般的美貌。",
+      "answers": [
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "下不为例",
+              "is_correct": false
+          },
+          {
+              "answer": "无所不谈",
+              "is_correct": false
+          },
+          {
+              "answer": "沉鱼落雁",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 6,
+      "question": "她____。好像在找什么东西。",
+      "answers": [
+          {
+              "answer": "开门见山",
+              "is_correct": false
+          },
+          {
+              "answer": "左顾右盼",
+              "is_correct": true
+          },
+          {
+              "answer": "安贫乐道",
+              "is_correct": false
+          },
+          {
+              "answer": "对牛弹琴",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 7,
+      "question": "别向他解释, 那只是____。",
+      "answers": [
+          {
+              "answer": "胡说八道",
+              "is_correct": false
+          },
+          {
+              "answer": "千言万语",
+              "is_correct": false
+          },
+          {
+              "answer": "对牛弹琴",
+              "is_correct": true
+          },
+          {
+              "answer": "理直气壮",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 8,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "塞翁失马",
+              "is_correct": false
+          },
+          {
+              "answer": "亦步亦趋",
+              "is_correct": false
+          },
+          {
+              "answer": "乱七八糟",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 9,
+      "question": "大熊猫是世界上____的珍稀动物",
+      "answers": [
+          {
+              "answer": "对牛弹琴",
+              "is_correct": false
+          },
+          {
+              "answer": "不得其法",
+              "is_correct": false
+          },
+          {
+              "answer": "似懂非懂",
+              "is_correct": false
+          },
+          {
+              "answer": "独一无二",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 10,
+      "question": "有些人总是____，结果是办起石头砸自己的脚。",
+      "answers": [
+          {
+              "answer": "星火燎原",
+              "is_correct": false
+          },
+          {
+              "answer": "自作聪明",
+              "is_correct": true
+          },
+          {
+              "answer": "不翼而飞",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 11,
+      "question": "不如今这个社会，像他这样好心的人，应是____的了",
+      "answers": [
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          },
+          {
+              "answer": "大惊小怪",
+              "is_correct": false
+          },
+          {
+              "answer": "绝无仅有",
+              "is_correct": true
+          },
+          {
+              "answer": "损人利己",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 12,
+      "question": "老师平时教育我们对别人的不幸不应____，而是去帮助他们。",
+      "answers": [
+          {
+              "answer": "兴致勃勃",
+              "is_correct": false
+          },
+          {
+              "answer": "幸灾乐祸",
+              "is_correct": true
+          },
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "乘风破浪",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 13,
+      "question": "年纪渐大，要做的事还很多，但常感到____。",
+      "answers": [
+          {
+              "answer": "不翼而飞",
+              "is_correct": false
+          },
+          {
+              "answer": "龇牙咧嘴",
+              "is_correct": false
+          },
+          {
+              "answer": "力不从心",
+              "is_correct": true
+          },
+          {
+              "answer": "惊慌失措",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 14,
+      "question": "他只要一谈起电影，就____",
+      "answers": [
+          {
+              "answer": "不得其法",
+              "is_correct": false
+          },
+          {
+              "answer": "低三下四",
+              "is_correct": false
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          },
+          {
+              "answer": "滔滔不绝",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 15,
+      "question": "奶奶____，积攒了一点养老钱",
+      "answers": [
+          {
+              "answer": "不翼而飞",
+              "is_correct": false
+          },
+          {
+              "answer": "省吃俭用",
+              "is_correct": true
+          },
+          {
+              "answer": "彬彬有礼",
+              "is_correct": false
+          },
+          {
+              "answer": "无可奈何",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 16,
+      "question": "千万不要提早到，因为主人可能尚未____。",
+      "answers": [
+          {
+              "answer": "沉鱼落雁",
+              "is_correct": false
+          },
+          {
+              "answer": "一切就绪",
+              "is_correct": true
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          },
+          {
+              "answer": "白发苍苍",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 17,
+      "question": "____，安知非福，你第一次没考好，如从中吸取教训，以后会考得好一些。",
+      "answers": [
+          {
+              "answer": "不以为然",
+              "is_correct": false
+          },
+          {
+              "answer": "如愿以偿",
+              "is_correct": false
+          },
+          {
+              "answer": "夜深人静",
+              "is_correct": false
+          },
+          {
+              "answer": "塞翁失马",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 18,
+      "question": "弟弟吃到好吃的东西总是____的。",
+      "answers": [
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "废寝忘食",
+              "is_correct": false
+          },
+          {
+              "answer": "狼吞虎咽",
+              "is_correct": true
+          },
+          {
+              "answer": "避而不见",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 19,
+      "question": "其实，有一种想念，叫____。",
+      "answers": [
+          {
+              "answer": "避而不见",
+              "is_correct": true
+          },
+          {
+              "answer": "惴惴不安",
+              "is_correct": false
+          },
+          {
+              "answer": "铺天盖地",
+              "is_correct": false
+          },
+          {
+              "answer": "一门心思",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 20,
+      "question": "做假事骗得了几个人，骗不了____的人。",
+      "answers": [
+          {
+              "answer": "惴惴不安",
+              "is_correct": false
+          },
+          {
+              "answer": "滔滔不绝",
+              "is_correct": false
+          },
+          {
+              "answer": "理直气壮",
+              "is_correct": false
+          },
+          {
+              "answer": "成千上万",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 21,
+      "question": "姐姐____地复习功课，终于以优异的成绩考上了重点大学。",
+      "answers": [
+          {
+              "answer": "擦肩而过",
+              "is_correct": false
+          },
+          {
+              "answer": "成千上万",
+              "is_correct": false
+          },
+          {
+              "answer": "废寝忘食",
+              "is_correct": true
+          },
+          {
+              "answer": "狼吞虎咽",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 22,
+      "question": "也许，伊士梅尔皱着眉头说，你太____地聚焦美国了吧。",
+      "answers": [
+          {
+              "answer": "独一无二",
+              "is_correct": false
+          },
+          {
+              "answer": "一门心思",
+              "is_correct": true
+          },
+          {
+              "answer": "避而不见",
+              "is_correct": false
+          },
+          {
+              "answer": "一切就绪",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 23,
+      "question": "他从那场灾难中____,后来成长为一名英勇的战士。",
+      "answers": [
+          {
+              "answer": "损人利己",
+              "is_correct": false
+          },
+          {
+              "answer": "心甘情愿",
+              "is_correct": false
+          },
+          {
+              "answer": "死里逃生",
+              "is_correct": true
+          },
+          {
+              "answer": "不可兼得",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 24,
+      "question": "近年来电信诈骗____，手机总是接二连三的收到诈骗短信。",
+      "answers": [
+          {
+              "answer": "不翼而飞",
+              "is_correct": false
+          },
+          {
+              "answer": "夜深人静",
+              "is_correct": false
+          },
+          {
+              "answer": "星火燎原",
+              "is_correct": false
+          },
+          {
+              "answer": "铺天盖地",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 25,
+      "question": "这位画家的风格古朴典雅，____。",
+      "answers": [
+          {
+              "answer": "知难而退",
+              "is_correct": false
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": true
+          },
+          {
+              "answer": "称兄道弟",
+              "is_correct": false
+          },
+          {
+              "answer": "惴惴不安",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 26,
+      "question": "我____把心爱的钢铁侠玩具送给了同学。",
+      "answers": [
+          {
+              "answer": "心甘情愿",
+              "is_correct": true
+          },
+          {
+              "answer": "一门心思",
+              "is_correct": false
+          },
+          {
+              "answer": "小心翼翼",
+              "is_correct": false
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 27,
+      "question": "弟弟很淘气，妈妈拿他真是____。",
+      "answers": [
+          {
+              "answer": "损人利己",
+              "is_correct": false
+          },
+          {
+              "answer": "无可奈何",
+              "is_correct": true
+          },
+          {
+              "answer": "擦肩而过",
+              "is_correct": false
+          },
+          {
+              "answer": "心如止水",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 28,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "雪上加霜",
+              "is_correct": false
+          },
+          {
+              "answer": "光明磊落",
+              "is_correct": false
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 29,
+      "question": "人不是____的，却憧憬完美的爱。",
+      "answers": [
+          {
+              "answer": "安贫乐道",
+              "is_correct": false
+          },
+          {
+              "answer": "胡说八道",
+              "is_correct": false
+          },
+          {
+              "answer": "十全十美",
+              "is_correct": true
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 30,
+      "question": "来到这个陌生的地方,____,我该怎么办呢?",
+      "answers": [
+          {
+              "answer": "夸大其词",
+              "is_correct": false
+          },
+          {
+              "answer": "举目无亲",
+              "is_correct": true
+          },
+          {
+              "answer": "无可奈何",
+              "is_correct": false
+          },
+          {
+              "answer": "成千上万",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 30,
+      "question": "这种新思想大有____之势。",
+      "answers": [
+          {
+              "answer": "亦步亦趋",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": false
+          },
+          {
+              "answer": "星火燎原",
+              "is_correct": true
+          },
+          {
+              "answer": "忐忑不安",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 31,
+      "question": "他长年旅居世界各地，可以说是____。",
+      "answers": [
+          {
+              "answer": "损人利己",
+              "is_correct": false
+          },
+          {
+              "answer": "狼吞虎咽",
+              "is_correct": false
+          },
+          {
+              "answer": "四海为家",
+              "is_correct": true
+          },
+          {
+              "answer": "自作聪明",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 32,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "忙里偷闲",
+              "is_correct": false
+          },
+          {
+              "answer": "无可奈何",
+              "is_correct": false
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 33,
+      "question": "现在商品广告很多都是____。",
+      "answers": [
+          {
+              "answer": "夸大其词",
+              "is_correct": true
+          },
+          {
+              "answer": "自作聪明",
+              "is_correct": false
+          },
+          {
+              "answer": "无理取闹",
+              "is_correct": false
+          },
+          {
+              "answer": "滔滔不绝",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 34,
+      "question": "我____的打开信封，生怕被别人看见。",
+      "answers": [
+          {
+              "answer": "小心翼翼",
+              "is_correct": true
+          },
+          {
+              "answer": "安居乐业",
+              "is_correct": false
+          },
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "力不从心",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 35,
+      "question": "新年快到了，妈妈把屋子装饰得____。",
+      "answers": [
+          {
+              "answer": "无所不谈",
+              "is_correct": false
+          },
+          {
+              "answer": "不可兼得",
+              "is_correct": false
+          },
+          {
+              "answer": "重温旧梦",
+              "is_correct": false
+          },
+          {
+              "answer": "焕然一新",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 36,
+      "question": "我以前作业写得____的，现在好多了。",
+      "answers": [
+          {
+              "answer": "惟妙惟肖",
+              "is_correct": false
+          },
+          {
+              "answer": "力不从心",
+              "is_correct": false
+          },
+          {
+              "answer": "乱七八糟",
+              "is_correct": true
+          },
+          {
+              "answer": "数一数二",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 37,
+      "question": "星期天我们去爬山，晚上回来已经____了。",
+      "answers": [
+          {
+              "answer": "惊慌失措",
+              "is_correct": false
+          },
+          {
+              "answer": "筋疲力尽",
+              "is_correct": true
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          },
+          {
+              "answer": "一切就绪",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 38,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "乘风破浪",
+              "is_correct": false
+          },
+          {
+              "answer": "不得其法",
+              "is_correct": false
+          },
+          {
+              "answer": "夜深人静",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 39,
+      "question": "不要盘算太多，要____。该是你的终会得到。",
+      "answers": [
+          {
+              "answer": "全心全意",
+              "is_correct": false
+          },
+          {
+              "answer": "成千上万",
+              "is_correct": false
+          },
+          {
+              "answer": "光明磊落",
+              "is_correct": false
+          },
+          {
+              "answer": "顺其自然",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 40,
+      "question": "同学们____地离开母校，升入中学。",
+      "answers": [
+          {
+              "answer": "狼吞虎咽",
+              "is_correct": false
+          },
+          {
+              "answer": "恋恋不舍",
+              "is_correct": true
+          },
+          {
+              "answer": "下不为例",
+              "is_correct": false
+          },
+          {
+              "answer": "低三下四",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 41,
+      "question": "在街上匆忙与你____的人是谁",
+      "answers": [
+          {
+              "answer": "全神贯注",
+              "is_correct": false
+          },
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "擦肩而过",
+              "is_correct": true
+          },
+          {
+              "answer": "独一无二",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 42,
+      "question": "放学后，她____地去赶公交车。",
+      "answers": [
+          {
+              "answer": "千言万语",
+              "is_correct": false
+          },
+          {
+              "answer": "开门见山",
+              "is_correct": false
+          },
+          {
+              "answer": "四海为家",
+              "is_correct": false
+          },
+          {
+              "answer": "迫不及待",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 43,
+      "question": "傍晚时分,一双情人月下花前, ____。",
+      "answers": [
+          {
+              "answer": "无所不谈",
+              "is_correct": true
+          },
+          {
+              "answer": "小心翼翼",
+              "is_correct": false
+          },
+          {
+              "answer": "一头雾水",
+              "is_correct": false
+          },
+          {
+              "answer": "惊慌失措",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 44,
+      "question": "一班同学的意见和二班同学的意见____。",
+      "answers": [
+          {
+              "answer": "不得其法",
+              "is_correct": false
+          },
+          {
+              "answer": "一切就绪",
+              "is_correct": false
+          },
+          {
+              "answer": "不谋而合",
+              "is_correct": true
+          },
+          {
+              "answer": "顺其自然",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 45,
+      "question": "他嘴上虽然没有说不对，心里却____。",
+      "answers": [
+          {
+              "answer": "不以为然",
+              "is_correct": true
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          },
+          {
+              "answer": "心甘情愿",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 46,
+      "question": "画儿上的鸟儿____，似乎要展翅飞翔。",
+      "answers": [
+          {
+              "answer": "忐忑不安",
+              "is_correct": false
+          },
+          {
+              "answer": "星火燎原",
+              "is_correct": false
+          },
+          {
+              "answer": "栩栩如生",
+              "is_correct": true
+          },
+          {
+              "answer": "安居乐业",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 47,
+      "question": "此后他再也不相信算命先生的____了。",
+      "answers": [
+          {
+              "answer": "胡说八道",
+              "is_correct": true
+          },
+          {
+              "answer": "无理取闹",
+              "is_correct": false
+          },
+          {
+              "answer": "依依不舍",
+              "is_correct": false
+          },
+          {
+              "answer": "大惊小怪",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 48,
+      "question": "人总是____地四处流浪。",
+      "answers": [
+          {
+              "answer": "相提并论",
+              "is_correct": false
+          },
+          {
+              "answer": "忙里偷闲",
+              "is_correct": false
+          },
+          {
+              "answer": "沉鱼落雁",
+              "is_correct": false
+          },
+          {
+              "answer": "漫无目的",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 49,
+      "question": "她____。好像在找什么东西。",
+      "answers": [
+          {
+              "answer": "幸灾乐祸",
+              "is_correct": false
+          },
+          {
+              "answer": "如愿以偿",
+              "is_correct": false
+          },
+          {
+              "answer": "左顾右盼",
+              "is_correct": true
+          },
+          {
+              "answer": "夸大其词",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 50,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "沉鱼落雁",
+              "is_correct": false
+          },
+          {
+              "answer": "大惊小怪",
+              "is_correct": false
+          },
+          {
+              "answer": "避而不见",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 51,
+      "question": "他对我的错误提出批评，真是____。",
+      "answers": [
+          {
+              "answer": "雪上加霜",
+              "is_correct": false
+          },
+          {
+              "answer": "一针见血",
+              "is_correct": true
+          },
+          {
+              "answer": "栩栩如生",
+              "is_correct": false
+          },
+          {
+              "answer": "知足常乐",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 52,
+      "question": "这匹马____地就跑赢了。",
+      "answers": [
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "亦步亦趋",
+              "is_correct": false
+          },
+          {
+              "answer": "不以为然",
+              "is_correct": false
+          },
+          {
+              "answer": "轻而易举",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 53,
+      "question": "我们应该____去做，而不是敷衍了事。",
+      "answers": [
+          {
+              "answer": "全心全意",
+              "is_correct": true
+          },
+          {
+              "answer": "夸大其词",
+              "is_correct": false
+          },
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "废寝忘食",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 54,
+      "question": "她的态度却还是____的。",
+      "answers": [
+          {
+              "answer": "下不为例",
+              "is_correct": false
+          },
+          {
+              "answer": "顺其自然",
+              "is_correct": false
+          },
+          {
+              "answer": "不得其法",
+              "is_correct": false
+          },
+          {
+              "answer": "彬彬有礼",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 55,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "白发苍苍",
+              "is_correct": false
+          },
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "缘木求鱼",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 56,
+      "question": "路易斯安那的欧洲移民的后代和印第安纳的农夫____。",
+      "answers": [
+          {
+              "answer": "低三下四",
+              "is_correct": false
+          },
+          {
+              "answer": "称兄道弟",
+              "is_correct": true
+          },
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "画蛇添足",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 57,
+      "question": "你不可以把他的诗歌和他的剧本____。",
+      "answers": [
+          {
+              "answer": "相提并论",
+              "is_correct": true
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          },
+          {
+              "answer": "心如止水",
+              "is_correct": false
+          },
+          {
+              "answer": "称兄道弟",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 58,
+      "question": "该艺术家把她那温柔的笑容表现得____。",
+      "answers": [
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          },
+          {
+              "answer": "惟妙惟肖",
+              "is_correct": true
+          },
+          {
+              "answer": "火上浇油",
+              "is_correct": false
+          },
+          {
+              "answer": "不翼而飞",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 59,
+      "question": "不过，这位德国政坛曾经的大忙人现在却可以在学习之余，____地喝上一些自己钟爱的啤酒。",
+      "answers": [
+          {
+              "answer": "全心全意",
+              "is_correct": false
+          },
+          {
+              "answer": "避而不见",
+              "is_correct": false
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          },
+          {
+              "answer": "忙里偷闲",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 60,
+      "question": "他一直____在她的身上。",
+      "answers": [
+          {
+              "answer": "全神贯注",
+              "is_correct": true
+          },
+          {
+              "answer": "称兄道弟",
+              "is_correct": false
+          },
+          {
+              "answer": "迫不及待",
+              "is_correct": false
+          },
+          {
+              "answer": "不可开交",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 61,
+      "question": "他若想那样解决问题，无异____。",
+      "answers": [
+          {
+              "answer": "缘木求鱼",
+              "is_correct": true
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": false
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          },
+          {
+              "answer": "乘风破浪",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 62,
+      "question": "我不干这种____的事。",
+      "answers": [
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          },
+          {
+              "answer": "擦肩而过",
+              "is_correct": false
+          },
+          {
+              "answer": "铺天盖地",
+              "is_correct": false
+          },
+          {
+              "answer": "心如止水",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 63,
+      "question": "就此一回，____。",
+      "answers": [
+          {
+              "answer": "一针见血",
+              "is_correct": false
+          },
+          {
+              "answer": "下不为例",
+              "is_correct": true
+          },
+          {
+              "answer": "擦肩而过",
+              "is_correct": false
+          },
+          {
+              "answer": "左顾右盼",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 64,
+      "question": "结果是____了。",
+      "answers": [
+          {
+              "answer": "不顾一切",
+              "is_correct": false
+          },
+          {
+              "answer": "不可兼得",
+              "is_correct": false
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 65,
+      "question": "不用取，谢谢， ”老太太____地说, “它不碍我的事。",
+      "answers": [
+          {
+              "answer": "知足常乐",
+              "is_correct": false
+          },
+          {
+              "answer": "成千上万",
+              "is_correct": false
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 66,
+      "question": "我把自行车放在商店外面，等我出来时已____了。",
+      "answers": [
+          {
+              "answer": "思前想后",
+              "is_correct": false
+          },
+          {
+              "answer": "不翼而飞",
+              "is_correct": true
+          },
+          {
+              "answer": "依依不舍",
+              "is_correct": false
+          },
+          {
+              "answer": "下不为例",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 67,
+      "question": "她受到很大震动，但没有____。",
+      "answers": [
+          {
+              "answer": "惊慌失措",
+              "is_correct": true
+          },
+          {
+              "answer": "雪上加霜",
+              "is_correct": false
+          },
+          {
+              "answer": "一切就绪",
+              "is_correct": false
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 68,
+      "question": "柠檬把她酸得____。",
+      "answers": [
+          {
+              "answer": "可想而知",
+              "is_correct": false
+          },
+          {
+              "answer": "对牛弹琴",
+              "is_correct": false
+          },
+          {
+              "answer": "龇牙咧嘴",
+              "is_correct": true
+          },
+          {
+              "answer": "自作聪明",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 69,
+      "question": "你不要____了，我已经够难过了。",
+      "answers": [
+          {
+              "answer": "火上浇油",
+              "is_correct": true
+          },
+          {
+              "answer": "损人利己",
+              "is_correct": false
+          },
+          {
+              "answer": "滔滔不绝",
+              "is_correct": false
+          },
+          {
+              "answer": "漫无目的",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 70,
+      "question": "他必须抱有希望：有朝一日他能____。",
+      "answers": [
+          {
+              "answer": "火上浇油",
+              "is_correct": false
+          },
+          {
+              "answer": "如愿以偿",
+              "is_correct": true
+          },
+          {
+              "answer": "小心翼翼",
+              "is_correct": false
+          },
+          {
+              "answer": "数一数二",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 71,
+      "question": "老实说，加薪的事情就是____。",
+      "answers": [
+          {
+              "answer": "安贫乐道",
+              "is_correct": false
+          },
+          {
+              "answer": "雪上加霜",
+              "is_correct": true
+          },
+          {
+              "answer": "无理取闹",
+              "is_correct": false
+          },
+          {
+              "answer": "可想而知",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 72,
+      "question": "我已经受够了你的____，维克",
+      "answers": [
+          {
+              "answer": "无理取闹",
+              "is_correct": true
+          },
+          {
+              "answer": "四海为家",
+              "is_correct": false
+          },
+          {
+              "answer": "无理取闹",
+              "is_correct": true
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 73,
+      "question": "不要为自己的作为是否正确而____、紧张不安。",
+      "answers": [
+          {
+              "answer": "一本正经",
+              "is_correct": false
+          },
+          {
+              "answer": "惴惴不安",
+              "is_correct": false
+          },
+          {
+              "answer": "十全十美",
+              "is_correct": false
+          },
+          {
+              "answer": "思前想后",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 74,
+      "question": "那于下午离开办公室时，我____。",
+      "answers": [
+          {
+              "answer": "相提并论",
+              "is_correct": false
+          },
+          {
+              "answer": "如释重负",
+              "is_correct": true
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          },
+          {
+              "answer": "四海为家",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 75,
+      "question": "圣诞节前店员忙得____。",
+      "answers": [
+          {
+              "answer": "火上浇油",
+              "is_correct": false
+          },
+          {
+              "answer": "可想而知",
+              "is_correct": false
+          },
+          {
+              "answer": "不可开交",
+              "is_correct": true
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 76,
+      "question": "分手后一直企盼着有一天你能把我接回去，____，再续前缘。",
+      "answers": [
+          {
+              "answer": "心如止水",
+              "is_correct": false
+          },
+          {
+              "answer": "铺天盖地",
+              "is_correct": false
+          },
+          {
+              "answer": "重温旧梦",
+              "is_correct": true
+          },
+          {
+              "answer": "死里逃生",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 77,
+      "question": "他____地奔跑着穿过了草坪。",
+      "answers": [
+          {
+              "answer": "说三道四",
+              "is_correct": false
+          },
+          {
+              "answer": "开门见山",
+              "is_correct": false
+          },
+          {
+              "answer": "力不从心",
+              "is_correct": false
+          },
+          {
+              "answer": "兴致勃勃",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 78,
+      "question": "一个诚实的声音胜过____。",
+      "answers": [
+          {
+              "answer": "一针见血",
+              "is_correct": false
+          },
+          {
+              "answer": "千言万语。",
+              "is_correct": true
+          },
+          {
+              "answer": "忙里偷闲",
+              "is_correct": false
+          },
+          {
+              "answer": "塞翁失马",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 79,
+      "question": "特工处长____地注视着那股烟。",
+      "answers": [
+          {
+              "answer": "一本正经",
+              "is_correct": false
+          },
+          {
+              "answer": "小心翼翼",
+              "is_correct": false
+          },
+          {
+              "answer": "死里逃生",
+              "is_correct": false
+          },
+          {
+              "answer": "惴惴不安",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 80,
+      "question": "究竟是什么事呢？没有什么，____。",
+      "answers": [
+          {
+              "answer": "大惊小怪",
+              "is_correct": true
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": false
+          },
+          {
+              "answer": "一门心思",
+              "is_correct": false
+          },
+          {
+              "answer": "如愿以偿",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 81,
+      "question": "这点小困难，____，我们会很快克服的。",
+      "answers": [
+          {
+              "answer": "一本正经",
+              "is_correct": false
+          },
+          {
+              "answer": "不足挂齿",
+              "is_correct": true
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": false
+          },
+          {
+              "answer": "数一数二",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 82,
+      "question": "哪怕走遍____，我也要再次见到她。",
+      "answers": [
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "与众不同",
+              "is_correct": false
+          },
+          {
+              "answer": "天涯海角",
+              "is_correct": true
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 83,
+      "question": "一个女孩搀着一位____的老太太走了进来。",
+      "answers": [
+          {
+              "answer": "缘木求鱼",
+              "is_correct": false
+          },
+          {
+              "answer": "举目无亲",
+              "is_correct": false
+          },
+          {
+              "answer": "知足常乐",
+              "is_correct": false
+          },
+          {
+              "answer": "白发苍苍",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 84,
+      "question": "谷老师____,以培育人才为己任,所以最受同学敬佩。",
+      "answers": [
+          {
+              "answer": "一本正经",
+              "is_correct": false
+          },
+          {
+              "answer": "安贫乐道",
+              "is_correct": true
+          },
+          {
+              "answer": "焕然一新",
+              "is_correct": false
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 85,
+      "question": "他干嘛不能老是纯洁无邪、____地爱她呢？",
+      "answers": [
+          {
+              "answer": "安居乐业",
+              "is_correct": false
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          },
+          {
+              "answer": "光明磊落",
+              "is_correct": true
+          },
+          {
+              "answer": "亦步亦趋",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 86,
+      "question": "他一直都有商业头脑，我知道他迟早会____的",
+      "answers": [
+          {
+              "answer": "见利忘义",
+              "is_correct": false
+          },
+          {
+              "answer": "东山再起",
+              "is_correct": true
+          },
+          {
+              "answer": "狼吞虎咽",
+              "is_correct": false
+          },
+          {
+              "answer": "忙里偷闲",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 87,
+      "question": "她质朴愉快的性情，____的精神，对每个人来说，是可称道的。",
+      "answers": [
+          {
+              "answer": "知足常乐",
+              "is_correct": true
+          },
+          {
+              "answer": "低三下四",
+              "is_correct": false
+          },
+          {
+              "answer": "四海为家",
+              "is_correct": false
+          },
+          {
+              "answer": "避而不见",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 88,
+      "question": "她常常在____之时追忆过去。",
+      "answers": [
+          {
+              "answer": "惴惴不安",
+              "is_correct": false
+          },
+          {
+              "answer": "依依不舍",
+              "is_correct": false
+          },
+          {
+              "answer": "下不为例",
+              "is_correct": false
+          },
+          {
+              "answer": "夜深人静",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 89,
+      "question": "人民解放军____，横渡长江。",
+      "answers": [
+          {
+              "answer": "乘风破浪",
+              "is_correct": true
+          },
+          {
+              "answer": "一头雾水",
+              "is_correct": false
+          },
+          {
+              "answer": "亦步亦趋",
+              "is_correct": false
+          },
+          {
+              "answer": "一本正经",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 90,
+      "question": "这简直是____,多此一举。",
+      "answers": [
+          {
+              "answer": "乱七八糟",
+              "is_correct": false
+          },
+          {
+              "answer": "画蛇添足",
+              "is_correct": true
+          },
+          {
+              "answer": "小心翼翼",
+              "is_correct": false
+          },
+          {
+              "answer": "滔滔不绝",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 91,
+      "question": "无人理睬时，坚定执着。万人羡慕时，____。",
+      "answers": [
+          {
+              "answer": "忐忑不安",
+              "is_correct": false
+          },
+          {
+              "answer": "无可奈何",
+              "is_correct": false
+          },
+          {
+              "answer": "心如止水",
+              "is_correct": true
+          },
+          {
+              "answer": "安贫乐道",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 92,
+      "question": "每次老师在上课期间提问时，我都感到____。",
+      "answers": [
+          {
+              "answer": "开门见山",
+              "is_correct": false
+          },
+          {
+              "answer": "星火燎原",
+              "is_correct": false
+          },
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "忐忑不安",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 93,
+      "question": "对别人的事情____是非常不礼貌的行为。",
+      "answers": [
+          {
+              "answer": "心如止水",
+              "is_correct": false
+          },
+          {
+              "answer": "依依不舍",
+              "is_correct": false
+          },
+          {
+              "answer": "说三道四",
+              "is_correct": true
+          },
+          {
+              "answer": "惟妙惟肖",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 94,
+      "question": "他____地跳进冰冷的水里，救起了小孩。",
+      "answers": [
+          {
+              "answer": "轻而易举",
+              "is_correct": false
+          },
+          {
+              "answer": "一头雾水",
+              "is_correct": false
+          },
+          {
+              "answer": "幸灾乐祸",
+              "is_correct": false
+          },
+          {
+              "answer": "不顾一切",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 95,
+      "question": "写作论说文，以____的方式破题，也是常见的技巧。",
+      "answers": [
+          {
+              "answer": "焕然一新",
+              "is_correct": false
+          },
+          {
+              "answer": "开门见山",
+              "is_correct": true
+          },
+          {
+              "answer": "心神不宁",
+              "is_correct": false
+          },
+          {
+              "answer": "幸灾乐祸",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 96,
+      "question": "不祖国繁荣富强，百姓才能____。",
+      "answers": [
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "安居乐业",
+              "is_correct": true
+          },
+          {
+              "answer": "四海为家",
+              "is_correct": false
+          },
+          {
+              "answer": "见利忘义",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 97,
+      "question": "老王的口音南腔北调，大家跟他说话都听得____。",
+      "answers": [
+          {
+              "answer": "依依不舍",
+              "is_correct": false
+          },
+          {
+              "answer": "一头雾水",
+              "is_correct": true
+          },
+          {
+              "answer": "自作聪明",
+              "is_correct": false
+          },
+          {
+              "answer": "雪上加霜",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 98,
+      "question": "我们在尖端科研中要知难而进，绝不可____。",
+      "answers": [
+          {
+              "answer": "塞翁失马",
+              "is_correct": false
+          },
+          {
+              "answer": "白发苍苍",
+              "is_correct": false
+          },
+          {
+              "answer": "避而不见",
+              "is_correct": false
+          },
+          {
+              "answer": "知难而退",
+              "is_correct": true
+          }
+      ]
+  },
+  {
+      "id": 99,
+      "question": "看样子，他____，还没有完全明白这件事。",
+      "answers": [
+          {
+              "answer": "重温旧梦",
+              "is_correct": false
+          },
+          {
+              "answer": "似懂非懂",
+              "is_correct": true
+          },
+          {
+              "answer": "绝无仅有",
+              "is_correct": false
+          },
+          {
+              "answer": "小心翼翼",
+              "is_correct": false
+          }
+      ]
+  },
+  {
+      "id": 100,
+      "question": "他的成绩在学校里是____的。",
+      "answers": [
+          {
+              "answer": "数一数二",
+              "is_correct": true
+          },
+          {
+              "answer": "独一无二",
+              "is_correct": false
+          },
+          {
+              "answer": "一本正经",
+              "is_correct": false
+          },
+          {
+              "answer": "缘木求鱼",
+              "is_correct": false
+          }
+      ]
+  }
+]
