@@ -338,11 +338,11 @@ class MyWindow(QMainWindow):
 
 def load_questions_and_answers():
     # Load the questions
-    with open('questions.json', 'r') as f:
+    with open('questions.json', 'r', encoding="utf-8") as f:
         questions = json.load(f)
 
     # Load the answers
-    with open('answers.json', 'r') as f:
+    with open('answers.json', 'r', encoding="utf-8") as f:
         answers = json.load(f)
 
     # Create a dictionary that maps each answer to its corresponding explanation
@@ -363,7 +363,7 @@ def load_questions_and_answers():
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     questions = load_questions_and_answers()
-    with open('answers.json', 'r') as f:
+    with open('answers.json', 'r', encoding="utf-8") as f:
         answers = json.load(f)
     answer_to_explanation = {answer['answer']: answer['explanation'] for answer in answers}
     win = MyWindow(questions, answer_to_explanation)
