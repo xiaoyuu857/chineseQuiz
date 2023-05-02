@@ -67,20 +67,20 @@ class MyWindow(QMainWindow):
         layout.addWidget(self.question_label)
         
         self.score_label = QLabel(self)
-        font = QFont('Helvetica', 15)
+        font = QFont('Arial', 15)
         self.score_label.setFont(font)
         self.score_label.setAlignment(Qt.AlignRight)
 
         self.updateScoreLabel()
 
         self.correct_label = QLabel(self)
-        font = QFont('Helvetica', 15)
+        font = QFont('Arial', 15)
         self.correct_label.setFont(font)
         self.correct_label.setAlignment(Qt.AlignRight)
         self.correct_label.setGeometry(0, 0, 800, 50)
 
         self.question_id_label = QLabel(self)
-        font = QFont('Helvetica', 20)
+        font = QFont('Arial', 20)
         self.question_id_label.setFont(font)
         self.question_id_label.setAlignment(Qt.AlignLeft)
 
@@ -108,7 +108,7 @@ class MyWindow(QMainWindow):
         for i in range(4):
             answer = QRadioButton()
             self.answers.append(answer)
-            font = QFont('Helvetica', 15)
+            font = QFont('Arial', 15)
             answer.setFont(font)
             self.button_group.addButton(answer)
             answer.clicked.connect(partial(self.updateExplanation, answer))
@@ -127,12 +127,12 @@ class MyWindow(QMainWindow):
         # self.hint_button.clicked.connect(self.hintAnswer)
 
         self.explanation_label = QLabel()
-        font = QFont('Helvetica', 14)
+        font = QFont('Arial', 14)
         self.explanation_label.setFont(font)
         layout.addWidget(self.explanation_label)
 
         self.correct_answer_label = QLabel()
-        font = QFont('Helvetica', 14)
+        font = QFont('Arial', 14)
         self.correct_answer_label.setFont(font)
         layout.addWidget(self.correct_answer_label)
 
@@ -149,7 +149,7 @@ class MyWindow(QMainWindow):
         self.final_page = QWidget()
 
         score_label = QLabel(f"Your final score is {self.score} out of {len(self.questions)}")
-        font = QFont('Helvetica', QFont.Bold, 30)
+        font = QFont('Arial', QFont.Bold, 25)
         score_label.setFont(font)
         score_label.setAlignment(Qt.AlignCenter)
 
@@ -200,7 +200,7 @@ class MyWindow(QMainWindow):
     def showQuestion(self, questions, index):
         self.updateQuestionLabel()
         question = self.questions[self.current_question_index]
-        font = QFont('Helvetica', 20)
+        font = QFont('Arial', 20)
         self.question_label.setFont(font)
         self.current_question_index = index
         self.updateProgressBar()
@@ -342,7 +342,7 @@ def load_questions_and_answers():
     for question in questions:
         for answer in question['answers']:
             answer['explanation'] = answer_to_explanation.get(answer['answer'], '')
-            
+
     return questions
 
 
