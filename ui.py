@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, QtCore
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QFont, QCursor
+from PyQt5.QtGui import QFont, QCursor, QPixmap
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QPushButton, QVBoxLayout, QLabel, QRadioButton, QButtonGroup, QHBoxLayout
 import sys
 import json
@@ -29,6 +29,12 @@ class MyWindow(QMainWindow):
         page1 = QWidget()
         layout = QVBoxLayout()
         layout.addStretch()
+        logo_label = QLabel()
+        logo_pixmap = QPixmap('logo.png')
+        logo_label.setPixmap(logo_pixmap)
+        logo_label.setAlignment(QtCore.Qt.AlignCenter)
+        layout.addWidget(logo_label)
+
         self.play_button = QtWidgets.QPushButton("Play", page1)
         self.play_button.setStyleSheet(    
             '''*{
@@ -60,9 +66,7 @@ class MyWindow(QMainWindow):
         font = QFont('Helvetica', 15)
         self.score_label.setFont(font)
         self.score_label.setAlignment(Qt.AlignRight)
-        # self.score_label.setGeometry(0, 0, 600, 50)
 
-        # self.score_label.setStyleSheet("margin: 20px")
         self.updateScoreLabel()
 
         self.correct_label = QLabel(self)
@@ -70,13 +74,11 @@ class MyWindow(QMainWindow):
         self.correct_label.setFont(font)
         self.correct_label.setAlignment(Qt.AlignRight)
         self.correct_label.setGeometry(0, 0, 800, 50)
-        # self.score_label.setStyleSheet("margin: 20px")
 
         self.question_id_label = QLabel(self)
         font = QFont('Helvetica', 20)
         self.question_id_label.setFont(font)
         self.question_id_label.setAlignment(Qt.AlignLeft)
-        # self.question_id_label.setGeometry(0, 0, 200, 50)
 
         self.progress_bar = QtWidgets.QProgressBar(self)
         self.progress_bar.setRange(0, 9)
@@ -111,12 +113,10 @@ class MyWindow(QMainWindow):
         self.submit_button = QPushButton("Submit")
         layout.addWidget(self.submit_button)
         self.submit_button.clicked.connect(self.submitAnswer)
-        # self.submit_button.setStyleSheet("margin: 20px")
 
         self.next_button = QPushButton("Next")
         layout.addWidget(self.next_button)
         self.next_button.clicked.connect(self.nextQuestion)
-        # self.next_button.setStyleSheet("margin: 20px")
 
         # self.hint_button = QPushButton("Hint")
         # layout.addWidget(self.hint_button)
@@ -143,16 +143,13 @@ class MyWindow(QMainWindow):
         self.progress_bar.setValue(self.current_question_index)
 
     def showFinalScreen(self):
-        # Create a new page widget
         self.final_page = QWidget()
 
-        # Create the score label widget
         score_label = QLabel(f"Your final score is {self.score} out of {len(self.questions)}")
         font = QFont('Helvetica', 14)
         score_label.setFont(font)
         score_label.setAlignment(Qt.AlignCenter)
 
-        # Create a layout for the final page
         layout = QVBoxLayout()
         layout.addStretch()
         layout.addWidget(score_label)
@@ -177,7 +174,6 @@ class MyWindow(QMainWindow):
         layout.addWidget(self.button)
         self.button.setCursor(QCursor(QtCore.Qt.PointingHandCursor))
         self.button.clicked.connect(lambda: self.showQuestion(self.questions, 0))
-        # Add the final page to the stacked widget
         self.stacked_widget.addWidget(self.final_page)
         self.stacked_widget.setCurrentWidget(self.final_page)
         self.button.clicked.connect(self.resetGame)
@@ -191,17 +187,15 @@ class MyWindow(QMainWindow):
                 explanation = answer['explanation']
                 break
 
-        # update explanation
         self.explanation_label.setText(explanation)
         self.explanation_label.show()
-
 
 
     def showQuestion(self, questions, index):
         self.updateProgressBar()
         self.updateQuestionLabel()
         question = self.questions[self.current_question_index]
-        font = QFont('Helvetica', 20)
+        font = QFont('SimSun', 20)
         self.question_label.setFont(font)
         self.current_question_index = index
         self.updateProgressBar()
@@ -211,7 +205,6 @@ class MyWindow(QMainWindow):
             self.answers[i].setText(answer['answer'])
 
         self.next_button.setEnabled(False)
-        # self.next_button.setStyleSheet("")
 
         self.stacked_widget.setCurrentIndex(1)
 
@@ -236,7 +229,6 @@ class MyWindow(QMainWindow):
 
     def submitAnswer(self):
         if self.button_group.checkedButton() is None:
-            # self.explanation_label.setText("Please select answer!")
             QtWidgets.QMessageBox.warning(self, "No answer selected", "Please select an answer.")
             return
 
@@ -297,10 +289,7 @@ class MyWindow(QMainWindow):
             self.question_id_label.hide()
             self.score_label.hide()
             return
-        # self.question_id_label.setText(f"Question {self.current_question_id}/{len(self.questions)-1}")
         if self.current_question_id > len(self.questions):
-            # self.question_label.setText(f"Your final score is {self.score} out of {len(self.questions)-1}")
-            # self.showFinalScreen()
             self.stacked_widget.setCurrentIndex(1)
             self.question_id_label.hide()
             return
@@ -334,8 +323,6 @@ class MyWindow(QMainWindow):
             answer.setEnabled(True)
 
 
-
-
 def load_questions_and_answers():
     # Load the questions
     with open('questions.json', 'r', encoding="utf-8") as f:
@@ -345,16 +332,14 @@ def load_questions_and_answers():
     with open('answers.json', 'r', encoding="utf-8") as f:
         answers = json.load(f)
 
-    # Create a dictionary that maps each answer to its corresponding explanation
     answer_to_explanation = {answer['answer']: answer['explanation'] for answer in answers}
 
-    # Loop over the questions and add the explanation to each answer
     for question in questions:
         for answer in question['answers']:
             answer['explanation'] = answer_to_explanation.get(answer['answer'], '')
 
     # Save the updated questions
-    with open('updated_questions.json', 'w') as f:
+    with open('updated_questions.json', 'w', encoding="utf-8") as f:
         json.dump(questions, f, indent=4)
 
     return questions
