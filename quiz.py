@@ -20,7 +20,6 @@ class MyWindow(QMainWindow):
         self.questions = random.sample(questions, 10)
         self.answer_to_explanation = answer_to_explanation
         self.current_question_id = 1
-        self.show_correct_answers = False
         random.shuffle(self.questions)
         self.initUI()
 
@@ -122,10 +121,6 @@ class MyWindow(QMainWindow):
         layout.addWidget(self.next_button)
         self.next_button.clicked.connect(self.nextQuestion)
 
-        # self.hint_button = QPushButton("Hint")
-        # layout.addWidget(self.hint_button)
-        # self.hint_button.clicked.connect(self.hintAnswer)
-
         self.explanation_label = QLabel()
         font = QFont('Arial', 14)
         self.explanation_label.setFont(font)
@@ -156,7 +151,6 @@ class MyWindow(QMainWindow):
         layout = QVBoxLayout()
         layout.addStretch()
         layout.addWidget(score_label)
-        layout.addStretch()
         self.final_page.setLayout(layout)
 
         self.button = QtWidgets.QPushButton('TRY AGAIN', self.final_page)
@@ -221,17 +215,6 @@ class MyWindow(QMainWindow):
         return None
     
 
-    # def hintAnswer(self):
-    #     for i, answer in enumerate(self.current_question['answers']):
-    #         correct_answer = self.current_question["answer"] 
-    #     buttons = self.button_group.buttons()
-    #     incorrect_buttons = [button for button in buttons if button.text() != correct_answer]
-    #     incorrect_answers = random.sample(incorrect_buttons, 2)
-    #     for answer in incorrect_answers:
-    #         answer.hide()
-    #         self.answers.remove(answer)
-
-
     def submitAnswer(self):
         if self.button_group.checkedButton() is None:
             QtWidgets.QMessageBox.warning(self, "No answer selected", "Please select an answer.")
@@ -263,7 +246,7 @@ class MyWindow(QMainWindow):
             self.correct_label.setText("Incorrect")
             self.correct_label.setStyleSheet("color: red")
             self.showExplanation(self.correct_answer)
-            explanation = self.answer_to_explanation[self.correct_answer]  # get the explanation from the answer_to_explanation dict
+            explanation = self.answer_to_explanation[self.correct_answer]  
             self.correct_answer_label.setText(f"Correct answer: {self.correct_answer}\nExplanation: {explanation}")
             self.correct_answer_label.show()
             self.explanation_label.setText("")
@@ -282,6 +265,7 @@ class MyWindow(QMainWindow):
                 explanation = answer['explanation']
                 self.explanation_label.setText(explanation)
                 break
+
     
     def nextQuestion(self):
         for button in self.answers:
@@ -314,7 +298,6 @@ class MyWindow(QMainWindow):
         self.current_question_index = 0
         self.score = 0
         self.current_question_id = 1
-        self.show_correct_answers = False
         self.updateScoreLabel()
         self.updateQuestionLabel()
         self.stacked_widget.setCurrentIndex(0)
