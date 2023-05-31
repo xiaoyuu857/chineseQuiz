@@ -226,9 +226,6 @@ class MyWindow(QMainWindow):
                 for answer in question['answers']:
                     if answer['answer'] == selected_answer_text:
                         is_true = answer['is_correct']
-                        if is_true:
-                            explanation = answer['explanation']
-                        break
                 break
 
         self.showExplanation(selected_answer_text)
